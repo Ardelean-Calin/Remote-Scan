@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <script>
+      function btnClick(){
+        window.location.href = "/scan"  // go to relative location.
+                                        // absolute location also supported
+      }
+
+      function resetCounter(){
+        window.location.href ="/reset"  //go to reset. Flask detects /reset
+                                        //and loads the page
+      }
+    </script>
+    <button onclick="btnClick()">Scan</button>
+    <button onclick="resetCounter()">Reset Counter</button>
+    <p>
+      Current index: {{count}}
+    </p>
+  </body>
+</html>
