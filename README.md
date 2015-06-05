@@ -16,7 +16,7 @@ Instructions:
   scanners.
 <img src="http://i.imgur.com/VUF9zwa.png">
 - Copy the name of the desired device(without quotes). In my case:
-  *hpaio:/net/Deskjet_3050_J610_series?zc=HP0BF9DD*
+  - *hpaio:/net/Deskjet_3050_J610_series?zc=HP0BF9DD*
 - Open *scanconf.conf* and paste your copied device name right next to the
   *device-name* entry
 - Edit the output-dir in *scanconf.conf* to match your desired output directory
@@ -27,5 +27,5 @@ Instructions:
   A server will be created on the local network at port 5000. To access the
   webapp from any other device you have to know the local IP of your computer
   and enter that IP in the web browser from which you wish to connect, followed
-  by the port number: *5000*
-    Ex: http://192.164.0.1:5000
+  by the port number: *5000*.
+  - Example: http://192.164.0.1:5000
